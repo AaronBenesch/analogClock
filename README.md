@@ -15,4 +15,5 @@ This project is an analog clock  using HTML, CSS, and JavaScript. The clock disp
 
 ## Repository
 
-The project is hosted on GitHub. You can find the repository [here]([https://github.com/AaronBenesch/analogClock]).
+The project is hosted on GitHub. You can find the repository [here](https://github.com/AaronBenesch/analogClock).
+This site was built using [GitHub Pages](https://pages.github.com/).
