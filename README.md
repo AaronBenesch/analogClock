@@ -19,4 +19,4 @@ We had to use javascript to program a clock that displays seconds, minutes and h
 
 ## Repository
 
-The project is hosted on GitHub. You can find the repository [here](https://github.com/AaronBenesch/analogClock)
+The project is hosted on GitHub. You can find the repository [here](https://github.com/AaronBenesch/analogClock/tree/master)
