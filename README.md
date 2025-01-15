@@ -2,6 +2,10 @@
 
 This project is an analog clock  using HTML, CSS, and JavaScript. The clock displays the current time with hour, minute, and second hands.
 
+## Assignment
+
+We had to use javascript to program a clock that displays seconds, minutes and hours. We were given the index.html and were not allowed to change it - otherwise we could decide, what we wanted to do
+
 ## Features
 
 - Clock showing the current time accurately with 3 hands displaying seconds, hours and minutes
@@ -15,5 +19,4 @@ This project is an analog clock  using HTML, CSS, and JavaScript. The clock disp
 
 ## Repository
 
-The project is hosted on GitHub. You can find the repository [here](https://github.com/AaronBenesch/analogClock).
-This site was built using [GitHub Pages](https://pages.github.com/).
+The project is hosted on GitHub. You can find the repository [here](https://github.com/AaronBenesch/analogClock)
