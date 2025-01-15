@@ -1,13 +1,15 @@
 /* Style for the clock container */
 .clock {
-    width: 300px; /* Breite der Uhr */
-    height: 300px; /* Höhe der Uhr */
-    border: 10px solid rgb(0, 0, 0); /* Rand der Uhr */
-    border-radius: 50%; /* Runde Form */
-    position: relative; /* Positionierung der Zeiger */
-    margin: 50px auto; /* Zentriert die Uhr */
-    background: rgb(0, 0, 0); /* Hintergrundfarbe */
+    width: 300px; /* Width of the watch */
+    height: 300px; /* Height of the clock */
+    border: 10px solid rgb(0, 0, 0); /* Edge of the clock */
+    border-radius: 50%; /* Round Shape */
+    position: relative; /* Positioning of the hands */
+    margin: 50px auto; /* Centers the clock */
+    background: rgb(0, 0, 0); /* Background color */
 }
+
+/* Dots for quarter hour marks*/
 
 .marking {
     position: absolute;
@@ -41,36 +43,36 @@
     transform: translateY(-50%);
 }
 
-/* Gemeinsame Stile für alle Zeiger */
+/* Common styles for all pointers */
 .hand {
-    width: 50%; /* Länge der Zeiger */
-    background: rgb(255, 0, 0); /* Farbe der Zeiger */
+    width: 50%; /* Length of the hands */
+    background: rgb(255, 0, 0); /* Color of the hands */
     position: absolute;
-    top: 50%; /* Startpunkt in der Mitte */
-    transform-origin: 100%; /* Drehpunkt am Ende des Zeigers */
+    top: 50%; /* Starting point in the middle */
+    transform-origin: 100%; /* Pivot point at the end of the pointer */
 }
 
 .hour-hand {
-    height: 8px; /* Dicke des Stundenzeigers */
-    background: #ff0000; /* Farbe des Stundenzeigers */
-    transform: rotate(90deg); /* Startposition des Zeigers */
+    height: 8px; /* Hour hand thickness */
+    background: #ff0000; /* Color of the hour hand */
+    transform: rotate(90deg); /* Starting position of the pointer */
 }
 
 .min-hand {
-    height: 5px; /* Dicke des Minutenzeigers */
-    background: #ff0000; /* Farbe des Minutenzeigers */
-    transform: rotate(90deg); /* Startposition des Zeigers */
+    height: 5px; /* Minute hand thickness */
+    background: #ff0000; /* Minute hand color */
+    transform: rotate(90deg); /* Starting position of the pointer */
 }
 
 .second-hand {
-    height: 2px; /* Dicke des Sekundenzeigers */
-    background: red; /* Farbe des Sekundenzeigers */
-    transform: rotate(90deg); /* Startposition des Zeigers */
+    height: 2px; /* Second hand thickness */
+    background: red; /* Second hand color */
+    transform: rotate(90deg); /* Starting position of the pointer */
 }
 
 @media (max-width: 500px) {
     .clock {
-        width: 200px; /* Anpassung für kleinere Bildschirme */
+        width: 200px; /* Adaptation for smaller screens */
         height: 200px;
     }
 }
