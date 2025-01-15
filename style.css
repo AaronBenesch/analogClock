@@ -1,0 +1,76 @@
+/* Style for the clock container */
+.clock {
+    width: 300px; /* Breite der Uhr */
+    height: 300px; /* Höhe der Uhr */
+    border: 10px solid rgb(0, 0, 0); /* Rand der Uhr */
+    border-radius: 50%; /* Runde Form */
+    position: relative; /* Positionierung der Zeiger */
+    margin: 50px auto; /* Zentriert die Uhr */
+    background: rgb(0, 0, 0); /* Hintergrundfarbe */
+}
+
+.marking {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: rgb(255, 0, 0);
+    border-radius: 50%;
+}
+
+.marking-one {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.marking-two {
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.marking-three {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.marking-four {
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Gemeinsame Stile für alle Zeiger */
+.hand {
+    width: 50%; /* Länge der Zeiger */
+    background: rgb(255, 0, 0); /* Farbe der Zeiger */
+    position: absolute;
+    top: 50%; /* Startpunkt in der Mitte */
+    transform-origin: 100%; /* Drehpunkt am Ende des Zeigers */
+}
+
+.hour-hand {
+    height: 8px; /* Dicke des Stundenzeigers */
+    background: #ff0000; /* Farbe des Stundenzeigers */
+    transform: rotate(90deg); /* Startposition des Zeigers */
+}
+
+.min-hand {
+    height: 5px; /* Dicke des Minutenzeigers */
+    background: #ff0000; /* Farbe des Minutenzeigers */
+    transform: rotate(90deg); /* Startposition des Zeigers */
+}
+
+.second-hand {
+    height: 2px; /* Dicke des Sekundenzeigers */
+    background: red; /* Farbe des Sekundenzeigers */
+    transform: rotate(90deg); /* Startposition des Zeigers */
+}
+
+@media (max-width: 500px) {
+    .clock {
+        width: 200px; /* Anpassung für kleinere Bildschirme */
+        height: 200px;
+    }
+}
